@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012072AF1D24B2600067C2CD /* FZInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012072AE1D24B2600067C2CD /* FZInputView.m */; };
+		F76E56581C90FCC40025BA9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E56571C90FCC40025BA9B /* main.m */; };
+		F76E565B1C90FCC40025BA9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E565A1C90FCC40025BA9B /* AppDelegate.m */; };
+		F76E565E1C90FCC50025BA9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E565D1C90FCC40025BA9B /* ViewController.m */; };
+		F76E56611C90FCC50025BA9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76E565F1C90FCC50025BA9B /* Main.storyboard */; };
+		F76E56631C90FCC50025BA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76E56621C90FCC50025BA9B /* Assets.xcassets */; };
+		F76E56661C90FCC50025BA9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76E56641C90FCC50025BA9B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012072AD1D24B2600067C2CD /* FZInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZInputView.h; sourceTree = "<group>"; };
+		012072AE1D24B2600067C2CD /* FZInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZInputView.m; sourceTree = "<group>"; };
+		F76E56531C90FCC40025BA9B /* FZInputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZInputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76E56571C90FCC40025BA9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F76E56591C90FCC40025BA9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F76E565A1C90FCC40025BA9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F76E565C1C90FCC40025BA9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F76E565D1C90FCC40025BA9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F76E56601C90FCC50025BA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F76E56621C90FCC50025BA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F76E56651C90FCC50025BA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F76E56671C90FCC50025BA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76E56501C90FCC40025BA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012072AC1D24B2600067C2CD /* FZInputView */ = {
+			isa = PBXGroup;
+			children = (
+				012072AD1D24B2600067C2CD /* FZInputView.h */,
+				012072AE1D24B2600067C2CD /* FZInputView.m */,
+			);
+			name = FZInputView;
+			path = ../FZInputView;
+			sourceTree = "<group>";
+		};
+		F76E564A1C90FCC40025BA9B = {
+			isa = PBXGroup;
+			children = (
+				012072AC1D24B2600067C2CD /* FZInputView */,
+				F76E56551C90FCC40025BA9B /* FZInputViewDemo */,
+				F76E56541C90FCC40025BA9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F76E56541C90FCC40025BA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F76E56531C90FCC40025BA9B /* FZInputViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F76E56551C90FCC40025BA9B /* FZInputViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F76E56591C90FCC40025BA9B /* AppDelegate.h */,
+				F76E565A1C90FCC40025BA9B /* AppDelegate.m */,
+				F76E565C1C90FCC40025BA9B /* ViewController.h */,
+				F76E565D1C90FCC40025BA9B /* ViewController.m */,
+				F76E565F1C90FCC50025BA9B /* Main.storyboard */,
+				F76E56621C90FCC50025BA9B /* Assets.xcassets */,
+				F76E56641C90FCC50025BA9B /* LaunchScreen.storyboard */,
+				F76E56671C90FCC50025BA9B /* Info.plist */,
+				F76E56561C90FCC40025BA9B /* Supporting Files */,
+			);
+			path = FZInputViewDemo;
+			sourceTree = "<group>";
+		};
+		F76E56561C90FCC40025BA9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F76E56571C90FCC40025BA9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F76E56521C90FCC40025BA9B /* FZInputViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76E566A1C90FCC50025BA9B /* Build configuration list for PBXNativeTarget "FZInputViewDemo" */;
+			buildPhases = (
+				F76E564F1C90FCC40025BA9B /* Sources */,
+				F76E56501C90FCC40025BA9B /* Frameworks */,
+				F76E56511C90FCC40025BA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZInputViewDemo;
+			productName = FZInputViewDemo;
+			productReference = F76E56531C90FCC40025BA9B /* FZInputViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76E564B1C90FCC40025BA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Frank;
+				TargetAttributes = {
+					F76E56521C90FCC40025BA9B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F76E564E1C90FCC40025BA9B /* Build configuration list for PBXProject "FZInputViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F76E564A1C90FCC40025BA9B;
+			productRefGroup = F76E56541C90FCC40025BA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F76E56521C90FCC40025BA9B /* FZInputViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76E56511C90FCC40025BA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76E56661C90FCC50025BA9B /* LaunchScreen.storyboard in Resources */,
+				F76E56631C90FCC50025BA9B /* Assets.xcassets in Resources */,
+				F76E56611C90FCC50025BA9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76E564F1C90FCC40025BA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76E565E1C90FCC50025BA9B /* ViewController.m in Sources */,
+				F76E565B1C90FCC40025BA9B /* AppDelegate.m in Sources */,
+				F76E56581C90FCC40025BA9B /* main.m in Sources */,
+				012072AF1D24B2600067C2CD /* FZInputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F76E565F1C90FCC50025BA9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76E56601C90FCC50025BA9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F76E56641C90FCC50025BA9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76E56651C90FCC50025BA9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F76E56681C90FCC50025BA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F76E56691C90FCC50025BA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F76E566B1C90FCC50025BA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FZInputViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FZInputViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F76E566C1C90FCC50025BA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FZInputViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FZInputViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76E564E1C90FCC40025BA9B /* Build configuration list for PBXProject "FZInputViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76E56681C90FCC50025BA9B /* Debug */,
+				F76E56691C90FCC50025BA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76E566A1C90FCC50025BA9B /* Build configuration list for PBXNativeTarget "FZInputViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76E566B1C90FCC50025BA9B /* Debug */,
+				F76E566C1C90FCC50025BA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76E564B1C90FCC40025BA9B /* Project object */;
+}

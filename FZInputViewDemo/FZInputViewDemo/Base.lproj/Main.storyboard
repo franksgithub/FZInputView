@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1451743103802416" translatesAutoresizingMaskIntoConstraints="NO" id="Pvf-cC-XM2">
+                                <rect key="frame" x="20" y="20" width="335" height="232"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="232" id="nFf-oM-QzS"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnR-nT-Oip">
+                                <rect key="frame" x="127" y="319" width="121" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="05V-Zn-6iE"/>
+                                    <constraint firstAttribute="height" constant="30" id="RQP-Jo-dUK"/>
+                                </constraints>
+                                <state key="normal" title="Show InputView"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="owN-Ko-NyR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UnR-nT-Oip" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0wW-rX-iiU"/>
+                            <constraint firstItem="UnR-nT-Oip" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="46I-SK-0QI"/>
+                            <constraint firstAttribute="trailing" secondItem="Pvf-cC-XM2" secondAttribute="trailing" constant="20" id="4Kq-QN-Z2N"/>
+                            <constraint firstItem="Pvf-cC-XM2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Hb6-lL-k2w"/>
+                            <constraint firstItem="Pvf-cC-XM2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="lse-Ot-JSk"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="423.5" y="451.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1451743103802416" width="224" height="153"/>
+    </resources>
+</document>
