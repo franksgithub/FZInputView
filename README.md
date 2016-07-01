@@ -3,7 +3,7 @@
 
 效果图：
 
-<img src="https://github.com/franksgithub/FZInputView/master/Images/screenshot.png" width="320">
+<img src="https://github.com/franksgithub/FZInputView/blob/master/Images/screenshot.png" width="320">
 
 
 
